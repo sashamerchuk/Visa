@@ -1,0 +1,41 @@
+@media screen and (max-width: 650px){
+    .googleCart{
+        margin:0 auto;
+        width:40%;
+        padding:100px;
+    }
+    .feedBackForma{
+        width:100%;
+        margin-top:3%;
+        margin-bottom:3%;
+    }
+    .buttonFeedBack{
+        width:100%;
+        
+    }
+    .divButtonFeedBack{
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .googleCart{
+        margin:0 auto;
+        width:80%;
+        padding:150px;
+    }
+    .feedBackForma{
+        width:100%;
+        margin-top:3%;
+        margin-bottom:3%;
+    }
+    .buttonFeedBack{
+        width:60%;
+        
+    }
+    .divButtonFeedBack{
+        padding-left:0;
+        padding-right:0;
+    }
+}

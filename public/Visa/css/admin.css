@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    font-family: 'Bree Serif', serif;
+    background-color:silver;
+    text-align: center;
+}
+header,footer,article,nav{
+    text-decoration: none;
+    color:silver;
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+}
+.logo{
+    animation-name:menu;
+    animation: menu 1s linear;
+}
+.logo {
+    color: silver;
+    font-family: 'Mansalva', cursive;
+    font-size: 40px;
+    animation-name: logo;
+    margin-top: -1%;
+    margin-bottom: 0;
+}
+header .container-fluid{
+    align-items: baseline;
+}
+@keyframes logo {
+    from{
+        transform:translateX(-15%);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+header nav{
+    background: none;
+    align-items: baseline;
+}
+header nav a{
+    text-decoration: none;
+    color:silver;
+    text-align: center;
+}
+header nav{
+    animation-name:menu;
+}
+header nav a:hover{
+    font-size: 20px;
+    color:blue;
+    transition: all  linear;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+header{
+    background:linear-gradient(90deg,black 30%,darkred);
+}
+header nav ul{
+    list-style: none;
+}
+header nav li{
+    display: block;
+    transition-duration: 0.5s;
+}
+header nav li:hover {
+    cursor: pointer;
+}
+.topMenu1 a{
+    display: block;
+    width:100%;
+}
+
+header .submenu{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+header nav ul li:hover >ul, ul li ul :hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.submenu1 li{
+    clear: both;
+    width:100%;
+    color: #fff;
+    background-color: black;
+    opacity: 0.7;
+    float: left;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.topMenu1 a{
+    text-decoration: none;
+    color:silver;
+    display: block;
+
+}
+.topMenu1 li{
+    list-style: none;
+}
+.submenu1{
+    display: none;
+    text-decoration: none;
+}
+.topMenu1 li:hover .submenu1 {
+    display:block;
+    position:absolute;
+    transition:1s linear;
+    z-index: 1000;
+    text-decoration: none;
+    color:silver;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.flexParent{
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.flexChild1 li{
+    width:180px;
+}
+
+main{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.container1{
+    border-radius: 20px;
+    margin-top:10%;
+    width:80%;
+    height:300px;
+}
+.container1{
+    width:100%;
+    height:250px;
+}
+.container1 img{
+    width:400px;
+    height:300px;
+}
+.input{
+    background-color:silver;
+    width:125px;
+    margin:0 auto;
+    box-shadow:0 0 0 1px darkblue;
+    border-radius:20px;
+    margin-top:25%;
+    margin-bottom:3%;
+    text-align: center;
+}
+.textContainer{
+    width:75%;
+    margin-top:10%;
+}
+.textContainer1{
+    width:75%;
+    margin-top:5%;
+    margin-bottom:5%;
+}

@@ -1,0 +1,34 @@
+.question{
+    margin:3%;
+    margin-bottom:1%;
+    text-align:center;
+}
+.algorithm{
+    margin:2%;
+    text-align:center;
+}
+.algorithm1{
+    width:60%;
+    margin:0 auto;
+    margin-bottom:3%;
+    text-align:center;
+
+}
+.flexParent{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+.childFlex{
+    margin-right:0;
+    margin-left:5%;
+    width:20%;
+    text-align: center;
+}
+.childFlex img{
+    border-radius:10px;
+    box-shadow:0 0 10px 0 black;
+    object-fit: cover;
+}

@@ -1,0 +1,38 @@
+
+a{
+  color:black;
+}
+#navbarSupportedContent ul li{
+  padding-left:15px;
+}
+  
+.slideFoto{
+  height:70vh;
+  object-fit: cover;
+}
+.fotoJob{
+  border-radius: 20px;
+  width:80%;
+  height:190px;
+}
+.foto{
+  width:200px;
+}
+.orderButtonVisa{
+  margin-bottom:5%;
+}
+.inputForma{
+  width:100%;
+  border:0;
+  outline:none;
+}
+.textJob{
+  text-justify:auto;
+}
+.textJob a{
+  font-weight: 500;
+}
+.textJob a i{
+  vertical-align: text-bottom
+
+}

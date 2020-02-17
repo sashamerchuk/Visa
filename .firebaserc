@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "visa-64426"
+  },
+  "targets": {
+    "visa-64426": {
+      "hosting": {
+        "Visa": [
+          "visa-64426"
+        ],
+        "Admin": [
+          "visaadmin"
+        ]
+      }
+    }
+  }
+}

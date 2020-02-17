@@ -1,0 +1,36 @@
+{
+  "hosting": [{
+    "target":"Visa",
+    "public": "public/Visa",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  { 
+    "target": "Admin",
+    "public": "public/Admin",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+],
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
