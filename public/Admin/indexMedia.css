@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px){
+    /* .flexParent{
+        flex-direction: column;
+    } */
+    .childFlexJob{
+        width:60%;
+    }
+    .fotoJob{
+        width:60%;
+        height:200px;
+    }
+    .childFlexJob img{
+        margin-top: 5%;
+        width:80%;
+        height:30vh;
+    }
+}
+@media screen and (min-width: 1824px){
+    /* .flexParent{
+        flex-direction: column;
+    } */
+    .childFlexJob img{
+        margin-top: 5%;
+        width:90%;
+        height:340px;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width: 1200px){
+    .childFlexJob{
+        width:40%;
+    }
+    .fotoJob{
+        width:90%;
+    }
+}   
+@media screen and (max-width: 650px){
+    .fotoJob{
+        width:100%;
+        height:25vh;
+    }
+    
+}

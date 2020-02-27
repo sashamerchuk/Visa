@@ -82,6 +82,10 @@ function getData(data){
 function showUsersData(img,title,body){
     let div = document.createElement('div');
     div.className = 'childFlexJob';
+    let divImg = document.createElement('div');
+    divImg.className = 'divImg';
+    let divInfo = document.createElement('div');
+    divInfo.className = 'divInfo';
     let image = document.createElement('img');
     image.src = img;
     image.className='fotoJob'
@@ -96,11 +100,11 @@ function showUsersData(img,title,body){
     p.className='textJob';
     details.append(p);
     details.append(summary);
-    div.append(image);
-    div.append(h6);
-    div.append(p)
-    // div.append(details);
-
+    divImg.append(image);
+    divInfo.append(h6)
+    divInfo.append(details)
+    div.append(divImg);
+    div.append(divInfo);
     let parent = document.getElementsByClassName("flexParentJob")[0];
     parent.append(div);
     

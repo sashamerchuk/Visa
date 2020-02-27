@@ -93,90 +93,89 @@
   <div class='flexParent'>
       <div class='childFlex'>
           <h3>1.</h3>
-          <img src='./foto/passport.jpg' class='foto'>
+          <div class='fotoBlock'><img src='./foto/passport.jpg' class='foto'></div>
+          <div class='visaInfo'>
           <h5>Діючий закордонний паспорт</h5>
+          </div>
       </div>
       <div class='childFlex'>
           <h3>2.</h3>
+          <div class='fotoBlock'>
           <img src='./foto/zaproshennia.jpg' class='foto'>
+          </div>
+          <div class='visaInfo'>
           <h5>Запрошення:<br>а)180/365 - 05 A<br>
               б)270/365 - 05 B<br>в)365/365 - 06</h5>
+              </div>
       </div>
       <div class='childFlex'>
           <h3>3.</h3>
+          <div class='fotoBlock'>
           <img src='./foto/insurance.png' class='foto'>
+          </div>
+          <div class='visaInfo'>
           <h5>Страховка</h5>
+          </div>
       </div>
       <div class='childFlex'>
           <h3>4.</h3>
+          <div class='fotoBlock'>
           <img src='./foto/anketa.jpg' class='foto'>
+          </div>
+          <div class='visaInfo'>
           <h5>Анкета</h5>
+          </div>
       </div>
       <div class='childFlex'>
           <h3>5.</h3>
+          <div class='fotoBlock'>
           <img src='./foto/fotoNaPassport.jpg' class='foto'>
+          </div>
+          <div class='visaInfo'>
           <h5>Фото 3,5Х 4,5</h5>
+          </div>
       </div>
       <div class='childFlex'>
           <h3>6.</h3>
+          <div class='fotoBlock'>
           <img src='./foto/pasport.jpg' class='foto'>
+          </div>
+          <div class='visaInfo'>
           <h5>Паспорт громадянина України</h5>
+          </div>
       </div>
       <div class='childFlex'>
           <h3>7.</h3>
+          <div class='fotoBlock'>
           <img src='./foto/identificaciiniicod.jpg' class='foto'>
+          </div>
+          <div class='visaInfo'>
           <h5>При наявності ідентифікаційний код</h5>
+          </div>
       </div>
       <div class='childFlex'>
           <h3>8.</h3>
+          <div class="fotoBlock">
           <img src='./foto/cvitancia.jpg' class='foto'>
+          </div>
+          <div class='visaInfo'>
           <h5>Квитанція про оплату візового збору</h5>
+          </div>
       </div>
   </div>
   <div class='container-fluid'>
       <h2 class='algorithm'>Алгоритм ваших дій</h2>
-      <h5 class='algorithm1'>1.Звернутися до нашої компанії для безкоштовної консультації</h5>
-      <h5 class='algorithm1'>2.Оформити запрошення до праці </h5>
-      <h5 class='algorithm1'>3.Здійснити оплату візового збору</h5>
-      <h5 class='algorithm1'>4.Ми готуємо  усі необхідні документи для подачі у візовий центр
+      <div class='algorithm1'>
+      <h5>1.Звернутися до нашої компанії для безкоштовної консультації</h5>
+      <h5>2.Оформити запрошення до праці </h5>
+      <h5>3.Здійснити оплату візового збору</h5>
+      <h5>4.Ми готуємо  усі необхідні документи для подачі у візовий центр
            ( страховка, анкета, ксерокопії, запрошення )
           Документи висилаємо Новою поштою , через наложений  платіж. </h5>
-      <h5 class='algorithm1'>5.Подати документи у візовий центр відповідного консульського округу .</h5>
-  </div>
-
-  <div class='container text-center orderButtonVisa'>
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orderVisa" style='width:150px; height:7vh;'>
-    Замовити візу
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade order" id="orderVisa" tabindex="-1" role="dialog" aria-labelledby="orderVisaLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="orderVisaLabel">Замовити візу</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <ul class='list-group'>
-          <li  class='list-group-item text-left'><input id ='name' class='inputForma' type='text' placeholder="Ім'я"></li>
-          <li  class='list-group-item text-left'><input id ='email' class='inputForma' type='email' placeholder="Ваш email"></li>
-          <li  class='list-group-item text-left'><input  id = 'number' class='inputForma'type='text' placeholder="Ваш телефон"></li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-
-          <div class='container text-left' style='padding-left:0;'>
-          <button id='userInformation' type="button" class="btn btn-primary text-left">Зателефонуйте мені</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
-          </div>
-        </div>
+      <h5>5.Подати документи у візовий центр відповідного консульського округу .</h5>
       </div>
-    </div>
   </div>
-  </div>
+
 
   <section class='container-fluid'>
     <div class='container-fluid flex'>
@@ -192,19 +191,8 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1063.8499185522046!2d24.43752576879664!3d51.43659393301345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47241d467e240f1d%3A0x36ae0c1dc37cb025!2z0JLRltC30L7QstC40Lkg0YbQtdC90YLRgA!5e1!3m2!1sru!2sua!4v1581071462590!5m2!1sru!2sua"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     </div>
-    <div class='container-fluid'>
-        <h1 id='fb' class='feedBack'>Зворотній зв'язок</h1> 
-    </div>
-    <div class='container-fluid text-center feedBackForma'>
-      <ul class='list-group'>
-        <li class='list-group-item text-left'><input id='feedBackName' class='inputForma' type='text' placeholder="Ім'я"></li>
-        <li class='list-group-item text-left'><input id='feedBackEmail' class='inputForma' type='email' placeholder="Ваш email"></li>
-        <li class='list-group-item text-left'><input id='feedBackNumber' class='inputForma'type='text' placeholder="Ваш телефон"></li>
-        </ul>
-        <div class='container divButtonFeedBack' style='padding-left:0; margin-top:3%;'><button type="button" id='buttonFeedBack' class="buttonFeedBack btn btn-primary">Надіслати</button></div>
-    </div>
-</section>
-<!-- Load Facebook SDK for JavaScript -->
+    </section>
+
 <div id="fb-root"></div>
 <script>
   window.fbAsyncInit = function() {

@@ -10,14 +10,6 @@ a{
   height:70vh;
   object-fit: cover;
 }
-.fotoJob{
-  border-radius: 20px;
-  width:80%;
-  height:190px;
-}
-.foto{
-  width:200px;
-}
 .orderButtonVisa{
   margin-bottom:5%;
 }
